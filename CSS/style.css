@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-image: url('./../img/voz.jpg');
+    background-repeat: no-repeat;
+    /* background-position: center center; */
+    background-size: cover;
+
+}
+
+.card1{
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    border-radius: 15px;
+    /* box-shadow: 0 0 10px rgba(47, 74, 96, 0.2); */
+    /* background-color: rgb(59, 59, 97); */
+}
+
+.flex-box-container{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+h2{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 400px;
+    border-radius: 30px;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    font-size: 25pt;
+    color: rgb(58, 72, 53);
+    box-shadow: -4px -4px 4px rgba(255,255,255,0.3),
+                5px 5px 5px rgba(0,0,0,0.2),
+                15px 15px 15px rgba(0,0,0,0.2);
+}
+
+#result{
+    display: inline-block;
+    padding: 10px;
+    margin-left: -850px;
+    font-weight: 700;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25pt;
+    color: rgb(58, 72, 53);
+    box-shadow: -4px -4px 4px rgba(255,255,255,0.3),
+                5px 5px 5px rgba(0,0,0,0.2),
+                15px 15px 15px rgba(0,0,0,0.2);
+}
